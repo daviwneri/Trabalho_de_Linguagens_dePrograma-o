@@ -1,0 +1,17 @@
+Primeiramente, confirme se sua máquina está preparada para executar código Haskell. No terminal, execute:
+    ghc --version
+
+Se não houver um compilador/interpretador instalado, siga as instruções em:
+    https://www.haskell.org/ghcup/
+
+Para rodar os casos de teste presentes em "texte.txt", execute:
+    runghc main.hs
+(Alternativas: ghci main.hs ou stack runghc main.hs)
+
+Formato dos casos de teste:
+Cada linha representa uma execução separada e deve conter quatro números:
+    X Y X_cavalo Y_cavalo
+- X, Y: dimensões do tabuleiro (largura e altura)
+- X_cavalo, Y_cavalo: coordenadas iniciais do cavalo
+
+Mantenha esse padrão para testar outros cenários.

@@ -1,0 +1,16 @@
+Carlos Alberto:
+    Pensei na lógica inicial da resoulução do problema, que acabou escalonando se tornando problema de Backtracking.
+    Criei a função "resolverPasseio" de recursividade utilizando o conceito de Backtracking.
+    Dessa forma, o cavalo anda por um caminho até o final dele, ou seja, até onde não possa mais andar.
+    E quando isso ocorre, ele volta para o primeiro passo e anda por outro caminho criando vários caminhos possíveis.
+    Além disso, criei o arquivo Makefile.txt.
+
+
+
+
+Davi Neri:
+    Cuidei basicamente da leitura do arquivo, as lógicas para ver se os estados iniciais são possíveis,
+    os movimentos dado uma posição e se outra posição é alcançavel a partir de uma posição e as verificações
+    finais para ver se o estado do tabuleiro é aceito ou não dadas as regras estabelecidas (Deve ser uma posição válida, 
+    ter percorrido todo o tabuleiro e não conseguir voltar ao início.). Para finalizar,
+    criei o arquivo testes.txt para testar o funcionamento do código.
