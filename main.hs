@@ -100,13 +100,15 @@ processarArquivo nome = do
 
   let total = length (filter id resultados)
   putStrLn $ "\nTotal de tabuleiros com solução: " ++ show total
+  
 
--- ---------------------------------------------------------------------------------------------------------------------
 imprimirTabuleiro :: Tabuleiro -> IO ()
 imprimirTabuleiro t =
   forM_ t $ \linha ->
     putStrLn $ intercalate "\t" (map show linha)
 
+
+-- ---------------------------------------------------------------------------------------------------------------------
 
 main :: IO ()
 main = processarArquivo "teste.txt"
